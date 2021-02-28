@@ -1,0 +1,20 @@
+Đối với mnist: 
++ UCB-gauss: 
+    - w3 = 5e-2. Cố định
++ UCB - mixture gauss:
+    - gauss = 2: w3 = 10e-2, batch size = 64 , no epoch = 80
+Đối với fashion mnist:
++ UCB-gauss:
+    -w3 = 5e-2. Cố định
+    -batch size = 64, noepoch = 50
++ UCB - mixture gauss
+    -gauss = 2: w3 = 1e-2, batch size = 64; noepoch = 80 
+    bộ này hiện đang thử vs tau =100
+
+Đối với notmnist:
++ucb -gauss:
+    -w3=5e-2. Cố định
+    - batch size = 64, noepoch = 50
++ucb mixture
+    -gauss =2: w3=15e-2, batch size 64; noepoch = 100
+    hiện đang thử vs tau = 100
